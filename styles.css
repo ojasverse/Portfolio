@@ -1,0 +1,166 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap'); */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1, h2 {
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    border: 1px solid #577279;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #06186957;
+    color: white;
+}
+header {
+    background-color: #9289c5;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #121213;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+#about {
+    padding: 40px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.projects {
+    background-color: #f72121;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.projects img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.projects h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+}
+
+.projects p {
+    margin: 0;
+    color: #666;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #b889c773;
+    color: #0e0d0d;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+/* hitesh choudhry */
+.skills {
+    margin-top: 2rem;
+  }
+  
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .skill-tags span {
+    background-color:rgb(197, 207, 212);
+    color: rgb(12, 11, 11);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+h3{
+    text-align: center;
+}
